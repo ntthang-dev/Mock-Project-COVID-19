@@ -1,0 +1,1561 @@
+//Đề
+10,[[1, 2], [1, 3], [2, 4], [4, 6], [2, 8], [6, 9], [7, 10]],[3, 8, 5]
+10,[[10,7],[3,6],[2,10],[5,6],[10,8]],[4,9,2,8]
+10,[[9,4],[6,7],[2,8],[3,10],[8,10]],[5,3,7,2]
+6,[[1,5],[2,5],[1,4],[4,6]],[2,6,5]
+6,[[1,6],[5,1],[6,4],[4,3],[5,3]],[4,3]
+
+20,[[5,7],[10,11],[2,15],[10,5],[10,6],[15,12],[6,11],[13,16],[10,19],[13,14],[3,16],[13,1],[11,1],[9,3],[3,14],[3,5],[1,8],[4,13],[14,8],[14,8]],[10,20,17]
+20,[[12,11],[13,1],[16,17],[5,12],[13,3],[12,13],[15,2],[1,11],[17,7],[1,15]],[19,16,10,14,2,20,1,13,3,12,18,9,11]
+20,[[13,19],[14,13],[1,19],[13,17],[1,16],[1,16],[11,8],[18,6],[3,15],[11,14],[12,7],[8,4],[1,9],[10,14],[20,6]],[5,19,7,12,8,11,4,14,1,10,20,17,9,2,16,13]
+30,[[10,24],[15,13],[22,6],[15,30],[4,11],[30,10],[5,19],[10,15],[30,18],[13,8],[3,17],[19,16],[6,19],[10,25],[6,16]],[17,5,28,30,20,27,13,16,1,26,11,14,15,21,25,12,23,2]
+300,[[90,243],[223,224],[286,171],[34,192],[148,159],[135,246],[18,122],[137,184],[164,212],[205,219],[10,164],[108,38],[75,192],[235,47],[228,108],[138,32],[127,22],[68,66],[28,165],[193,208],[13,31],[142,95],[127,17],[154,99],[292,47],[297,277],[180,158],[281,235],[69,136],[258,70],[54,266],[169,175],[145,143],[218,278],[56,232],[153,139],[25,59],[70,286],[23,79],[248,158],[205,44],[225,239],[75,63],[282,160],[89,57],[261,5],[112,204],[188,32],[227,236],[74,173]],[7,212,163,30,264,298,170,132,22,122,269,142,117,49,175,20,14,287,118,18,79,223,183,44,161,109,249,101,160,252,137,256,284,97,8,187,291,15,193,28,238,150,114,6,241,206,62,251,110,244,119,11,205,299,52,90,89,234,263,246,120,108,157,94,155,57,230,148,76,88,66,245,61,153,181,60,104,282,177,297,184,123,51,87,243,176,46,40,191,74,229,59,218,96,265,233,126,68,116,77,180,277,140,129,105,93,141,152,279,195,278,222,221,214,257,276,1,17,125,178,135,274,267,185,272,130,35,186,21,231,200,196,203,213,199,144,13,235,27,169,25,220,4,281,133,201,198,143,292,247,192,82,69,173,280,211,209,285,121,210,154,219,2,289,92,5,115,112,12,102,136,239,128,54,171,224,261,172,85,37,70,81,255,165,146,56,45,262,41,38,33,29,237,164,145,204,72,207,67,32,283,288,16,227,156,248,254,215,91,39,202,55,268,194,242,174,26,53,36,42,75,95,107,34,149,63]
+
+//Đáp án
+START---------------------------------1
+
+*DETAIL
+*Group 1
+Index3 F0 Severity:10 FIndex:0
+Index8 F0 Severity:10 FIndex:0
+Index1 F1 Severity:5 FIndex:1
+Index2 F1 Severity:5 FIndex:1
+Index4 F2 Severity:3 FIndex:2
+Index6 F3 Severity:1 FIndex:3
+Index9 F3 Severity:1 FIndex:4
+
+*Group 2
+Index7 Fx Severity:0 FIndex:2147483647
+Index10 Fx Severity:0 FIndex:2147483647
+
+*Group 3
+Index5 F0 Severity:10 FIndex:0
+
+
+*RESULT
+35,10,0,
+
+END-------------------------------------1
+
+START---------------------------------2
+
+*DETAIL
+*Group 1
+Index2 F0 Severity:10 FIndex:0
+Index8 F0 Severity:10 FIndex:0
+Index10 F1 Severity:5 FIndex:1
+Index7 F2 Severity:3 FIndex:2
+
+*Group 2
+Index3 Fx Severity:0 FIndex:2147483647
+Index5 Fx Severity:0 FIndex:2147483647
+Index6 Fx Severity:0 FIndex:2147483647
+
+*Group 3
+Index4 F0 Severity:10 FIndex:0
+
+*Group 4
+Index9 F0 Severity:10 FIndex:0
+
+*Group 5
+Index1 Fx Severity:0 FIndex:2147483647
+
+
+*RESULT
+28,10,10,0,0,
+
+END-------------------------------------2
+
+START---------------------------------3
+
+*DETAIL
+*Group 1
+Index4 Fx Severity:0 FIndex:2147483647
+Index9 Fx Severity:0 FIndex:2147483647
+
+*Group 2
+Index7 F0 Severity:10 FIndex:0
+Index6 F1 Severity:5 FIndex:1
+
+*Group 3
+Index2 F0 Severity:10 FIndex:0
+Index3 F0 Severity:10 FIndex:0
+Index8 F1 Severity:5 FIndex:1
+Index10 F1 Severity:5 FIndex:1
+
+*Group 4
+Index5 F0 Severity:10 FIndex:0
+
+*Group 5
+Index1 Fx Severity:0 FIndex:2147483647
+
+
+*RESULT
+30,15,10,0,0,
+
+END-------------------------------------3
+
+START---------------------------------4
+
+*DETAIL
+*Group 1
+Index2 F0 Severity:10 FIndex:0
+Index5 F0 Severity:10 FIndex:0
+Index6 F0 Severity:10 FIndex:0
+Index1 F1 Severity:5 FIndex:1
+Index4 F1 Severity:5 FIndex:1
+
+*Group 2
+Index3 Fx Severity:0 FIndex:2147483647
+
+
+*RESULT
+40,0,
+
+END-------------------------------------4
+
+START---------------------------------5
+
+*DETAIL
+*Group 1
+Index3 F0 Severity:10 FIndex:0
+Index4 F0 Severity:10 FIndex:0
+Index5 F1 Severity:5 FIndex:1
+Index6 F1 Severity:5 FIndex:1
+Index1 F2 Severity:3 FIndex:2
+
+*Group 2
+Index2 Fx Severity:0 FIndex:2147483647
+
+
+*RESULT
+33,0,
+
+END-------------------------------------5
+
+START---------------------------------6
+
+*DETAIL
+*Group 1
+Index2 Fx Severity:0 FIndex:2147483647
+Index12 Fx Severity:0 FIndex:2147483647
+Index15 Fx Severity:0 FIndex:2147483647
+
+*Group 2
+Index10 F0 Severity:10 FIndex:0
+Index5 F1 Severity:5 FIndex:1
+Index6 F1 Severity:5 FIndex:1
+Index11 F1 Severity:5 FIndex:1
+Index19 F1 Severity:5 FIndex:1
+Index1 F2 Severity:3 FIndex:2
+Index3 F2 Severity:3 FIndex:2
+Index7 F2 Severity:3 FIndex:2
+Index8 F3 Severity:1 FIndex:3
+Index9 F3 Severity:1 FIndex:3
+Index13 F3 Severity:1 FIndex:3
+Index14 F3 Severity:1 FIndex:3
+Index16 F3 Severity:1 FIndex:3
+Index4 F3 Severity:1 FIndex:4
+
+*Group 3
+Index17 F0 Severity:10 FIndex:0
+
+*Group 4
+Index20 F0 Severity:10 FIndex:0
+
+*Group 5
+Index18 Fx Severity:0 FIndex:2147483647
+
+
+*RESULT
+45,10,10,0,0,
+
+END-------------------------------------6
+
+START---------------------------------7
+
+*DETAIL
+*Group 1
+Index16 F0 Severity:10 FIndex:0
+Index17 F1 Severity:5 FIndex:1
+Index7 F2 Severity:3 FIndex:2
+
+*Group 2
+Index1 F0 Severity:10 FIndex:0
+Index2 F0 Severity:10 FIndex:0
+Index3 F0 Severity:10 FIndex:0
+Index11 F0 Severity:10 FIndex:0
+Index12 F0 Severity:10 FIndex:0
+Index13 F0 Severity:10 FIndex:0
+Index5 F1 Severity:5 FIndex:1
+Index15 F1 Severity:5 FIndex:1
+
+*Group 3
+Index9 F0 Severity:10 FIndex:0
+
+*Group 4
+Index10 F0 Severity:10 FIndex:0
+
+*Group 5
+Index14 F0 Severity:10 FIndex:0
+
+*Group 6
+Index18 F0 Severity:10 FIndex:0
+
+*Group 7
+Index19 F0 Severity:10 FIndex:0
+
+*Group 8
+Index20 F0 Severity:10 FIndex:0
+
+*Group 9
+Index4 Fx Severity:0 FIndex:2147483647
+
+*Group 10
+Index6 Fx Severity:0 FIndex:2147483647
+
+*Group 11
+Index8 Fx Severity:0 FIndex:2147483647
+
+
+*RESULT
+70,18,10,10,10,10,10,10,0,0,0,
+
+END-------------------------------------7
+
+START---------------------------------8
+
+*DETAIL
+*Group 1
+Index20 F0 Severity:10 FIndex:0
+Index6 F1 Severity:5 FIndex:1
+Index18 F2 Severity:3 FIndex:2
+
+*Group 2
+Index3 Fx Severity:0 FIndex:2147483647
+Index15 Fx Severity:0 FIndex:2147483647
+
+*Group 3
+Index7 F0 Severity:10 FIndex:0
+Index12 F0 Severity:10 FIndex:0
+
+*Group 4
+Index1 F0 Severity:10 FIndex:0
+Index4 F0 Severity:10 FIndex:0
+Index8 F0 Severity:10 FIndex:0
+Index9 F0 Severity:10 FIndex:0
+Index10 F0 Severity:10 FIndex:0
+Index11 F0 Severity:10 FIndex:0
+Index13 F0 Severity:10 FIndex:0
+Index14 F0 Severity:10 FIndex:0
+Index16 F0 Severity:10 FIndex:0
+Index17 F0 Severity:10 FIndex:0
+Index19 F0 Severity:10 FIndex:0
+
+*Group 5
+Index2 F0 Severity:10 FIndex:0
+
+*Group 6
+Index5 F0 Severity:10 FIndex:0
+
+
+*RESULT
+110,20,18,10,10,0,
+
+END-------------------------------------8
+
+START---------------------------------9
+
+*DETAIL
+*Group 1
+Index11 F0 Severity:10 FIndex:0
+Index4 F1 Severity:5 FIndex:1
+
+*Group 2
+Index5 F0 Severity:10 FIndex:0
+Index16 F0 Severity:10 FIndex:0
+Index6 F1 Severity:5 FIndex:1
+Index19 F1 Severity:5 FIndex:1
+Index22 F2 Severity:3 FIndex:2
+
+*Group 3
+Index13 F0 Severity:10 FIndex:0
+Index15 F0 Severity:10 FIndex:0
+Index25 F0 Severity:10 FIndex:0
+Index30 F0 Severity:10 FIndex:0
+Index8 F1 Severity:5 FIndex:1
+Index10 F1 Severity:5 FIndex:1
+Index18 F1 Severity:5 FIndex:1
+Index24 F2 Severity:3 FIndex:2
+
+*Group 4
+Index17 F0 Severity:10 FIndex:0
+Index3 F1 Severity:5 FIndex:1
+
+*Group 5
+Index1 F0 Severity:10 FIndex:0
+
+*Group 6
+Index2 F0 Severity:10 FIndex:0
+
+*Group 7
+Index12 F0 Severity:10 FIndex:0
+
+*Group 8
+Index14 F0 Severity:10 FIndex:0
+
+*Group 9
+Index20 F0 Severity:10 FIndex:0
+
+*Group 10
+Index21 F0 Severity:10 FIndex:0
+
+*Group 11
+Index23 F0 Severity:10 FIndex:0
+
+*Group 12
+Index26 F0 Severity:10 FIndex:0
+
+*Group 13
+Index27 F0 Severity:10 FIndex:0
+
+*Group 14
+Index28 F0 Severity:10 FIndex:0
+
+*Group 15
+Index7 Fx Severity:0 FIndex:2147483647
+
+*Group 16
+Index9 Fx Severity:0 FIndex:2147483647
+
+*Group 17
+Index29 Fx Severity:0 FIndex:2147483647
+
+
+*RESULT
+58,33,15,15,10,10,10,10,10,10,10,10,10,10,0,0,0,
+
+END-------------------------------------9
+
+START---------------------------------10
+
+*DETAIL
+*Group 1
+Index90 F0 Severity:10 FIndex:0
+Index243 F0 Severity:10 FIndex:0
+
+*Group 2
+Index223 F0 Severity:10 FIndex:0
+Index224 F0 Severity:10 FIndex:0
+
+*Group 3
+Index148 F0 Severity:10 FIndex:0
+Index159 F1 Severity:5 FIndex:1
+
+*Group 4
+Index135 F0 Severity:10 FIndex:0
+Index246 F0 Severity:10 FIndex:0
+
+*Group 5
+Index18 F0 Severity:10 FIndex:0
+Index122 F0 Severity:10 FIndex:0
+
+*Group 6
+Index137 F0 Severity:10 FIndex:0
+Index184 F0 Severity:10 FIndex:0
+
+*Group 7
+Index164 F0 Severity:10 FIndex:0
+Index212 F0 Severity:10 FIndex:0
+Index10 F1 Severity:5 FIndex:1
+
+*Group 8
+Index44 F0 Severity:10 FIndex:0
+Index205 F0 Severity:10 FIndex:0
+Index219 F0 Severity:10 FIndex:0
+
+*Group 9
+Index38 F0 Severity:10 FIndex:0
+Index108 F0 Severity:10 FIndex:0
+Index228 F1 Severity:5 FIndex:1
+
+*Group 10
+Index235 F0 Severity:10 FIndex:0
+Index281 F0 Severity:10 FIndex:0
+Index292 F0 Severity:10 FIndex:0
+Index47 F1 Severity:5 FIndex:1
+
+*Group 11
+Index32 F0 Severity:10 FIndex:0
+Index138 F1 Severity:5 FIndex:1
+Index188 F1 Severity:5 FIndex:1
+
+*Group 12
+Index17 F0 Severity:10 FIndex:0
+Index22 F0 Severity:10 FIndex:0
+Index127 F1 Severity:5 FIndex:1
+
+*Group 13
+Index66 F0 Severity:10 FIndex:0
+Index68 F0 Severity:10 FIndex:0
+
+*Group 14
+Index28 F0 Severity:10 FIndex:0
+Index165 F0 Severity:10 FIndex:0
+
+*Group 15
+Index193 F0 Severity:10 FIndex:0
+Index208 F1 Severity:5 FIndex:1
+
+*Group 16
+Index13 F0 Severity:10 FIndex:0
+Index31 F1 Severity:5 FIndex:1
+
+*Group 17
+Index95 F0 Severity:10 FIndex:0
+Index142 F0 Severity:10 FIndex:0
+
+*Group 18
+Index154 F0 Severity:10 FIndex:0
+Index99 F1 Severity:5 FIndex:1
+
+*Group 19
+Index277 F0 Severity:10 FIndex:0
+Index297 F0 Severity:10 FIndex:0
+
+*Group 20
+Index180 F0 Severity:10 FIndex:0
+Index248 F0 Severity:10 FIndex:0
+Index158 F1 Severity:5 FIndex:1
+
+*Group 21
+Index69 F0 Severity:10 FIndex:0
+Index136 F0 Severity:10 FIndex:0
+
+*Group 22
+Index70 F0 Severity:10 FIndex:0
+Index171 F0 Severity:10 FIndex:0
+Index258 F1 Severity:5 FIndex:1
+Index286 F1 Severity:5 FIndex:1
+
+*Group 23
+Index54 F0 Severity:10 FIndex:0
+Index266 F1 Severity:5 FIndex:1
+
+*Group 24
+Index169 F0 Severity:10 FIndex:0
+Index175 F0 Severity:10 FIndex:0
+
+*Group 25
+Index143 F0 Severity:10 FIndex:0
+Index145 F0 Severity:10 FIndex:0
+
+*Group 26
+Index218 F0 Severity:10 FIndex:0
+Index278 F0 Severity:10 FIndex:0
+
+*Group 27
+Index56 F0 Severity:10 FIndex:0
+Index232 F1 Severity:5 FIndex:1
+
+*Group 28
+Index153 F0 Severity:10 FIndex:0
+Index139 F1 Severity:5 FIndex:1
+
+*Group 29
+Index25 F0 Severity:10 FIndex:0
+Index59 F0 Severity:10 FIndex:0
+
+*Group 30
+Index79 F0 Severity:10 FIndex:0
+Index23 F1 Severity:5 FIndex:1
+
+*Group 31
+Index239 F0 Severity:10 FIndex:0
+Index225 F1 Severity:5 FIndex:1
+
+*Group 32
+Index34 F0 Severity:10 FIndex:0
+Index63 F0 Severity:10 FIndex:0
+Index75 F0 Severity:10 FIndex:0
+Index192 F0 Severity:10 FIndex:0
+
+*Group 33
+Index160 F0 Severity:10 FIndex:0
+Index282 F0 Severity:10 FIndex:0
+
+*Group 34
+Index57 F0 Severity:10 FIndex:0
+Index89 F0 Severity:10 FIndex:0
+
+*Group 35
+Index5 F0 Severity:10 FIndex:0
+Index261 F0 Severity:10 FIndex:0
+
+*Group 36
+Index112 F0 Severity:10 FIndex:0
+Index204 F0 Severity:10 FIndex:0
+
+*Group 37
+Index227 F0 Severity:10 FIndex:0
+Index236 F1 Severity:5 FIndex:1
+
+*Group 38
+Index74 F0 Severity:10 FIndex:0
+Index173 F0 Severity:10 FIndex:0
+
+*Group 39
+Index1 F0 Severity:10 FIndex:0
+
+*Group 40
+Index2 F0 Severity:10 FIndex:0
+
+*Group 41
+Index4 F0 Severity:10 FIndex:0
+
+*Group 42
+Index6 F0 Severity:10 FIndex:0
+
+*Group 43
+Index7 F0 Severity:10 FIndex:0
+
+*Group 44
+Index8 F0 Severity:10 FIndex:0
+
+*Group 45
+Index11 F0 Severity:10 FIndex:0
+
+*Group 46
+Index12 F0 Severity:10 FIndex:0
+
+*Group 47
+Index14 F0 Severity:10 FIndex:0
+
+*Group 48
+Index15 F0 Severity:10 FIndex:0
+
+*Group 49
+Index16 F0 Severity:10 FIndex:0
+
+*Group 50
+Index20 F0 Severity:10 FIndex:0
+
+*Group 51
+Index21 F0 Severity:10 FIndex:0
+
+*Group 52
+Index26 F0 Severity:10 FIndex:0
+
+*Group 53
+Index27 F0 Severity:10 FIndex:0
+
+*Group 54
+Index29 F0 Severity:10 FIndex:0
+
+*Group 55
+Index30 F0 Severity:10 FIndex:0
+
+*Group 56
+Index33 F0 Severity:10 FIndex:0
+
+*Group 57
+Index35 F0 Severity:10 FIndex:0
+
+*Group 58
+Index36 F0 Severity:10 FIndex:0
+
+*Group 59
+Index37 F0 Severity:10 FIndex:0
+
+*Group 60
+Index39 F0 Severity:10 FIndex:0
+
+*Group 61
+Index40 F0 Severity:10 FIndex:0
+
+*Group 62
+Index41 F0 Severity:10 FIndex:0
+
+*Group 63
+Index42 F0 Severity:10 FIndex:0
+
+*Group 64
+Index45 F0 Severity:10 FIndex:0
+
+*Group 65
+Index46 F0 Severity:10 FIndex:0
+
+*Group 66
+Index49 F0 Severity:10 FIndex:0
+
+*Group 67
+Index51 F0 Severity:10 FIndex:0
+
+*Group 68
+Index52 F0 Severity:10 FIndex:0
+
+*Group 69
+Index53 F0 Severity:10 FIndex:0
+
+*Group 70
+Index55 F0 Severity:10 FIndex:0
+
+*Group 71
+Index60 F0 Severity:10 FIndex:0
+
+*Group 72
+Index61 F0 Severity:10 FIndex:0
+
+*Group 73
+Index62 F0 Severity:10 FIndex:0
+
+*Group 74
+Index67 F0 Severity:10 FIndex:0
+
+*Group 75
+Index72 F0 Severity:10 FIndex:0
+
+*Group 76
+Index76 F0 Severity:10 FIndex:0
+
+*Group 77
+Index77 F0 Severity:10 FIndex:0
+
+*Group 78
+Index81 F0 Severity:10 FIndex:0
+
+*Group 79
+Index82 F0 Severity:10 FIndex:0
+
+*Group 80
+Index85 F0 Severity:10 FIndex:0
+
+*Group 81
+Index87 F0 Severity:10 FIndex:0
+
+*Group 82
+Index88 F0 Severity:10 FIndex:0
+
+*Group 83
+Index91 F0 Severity:10 FIndex:0
+
+*Group 84
+Index92 F0 Severity:10 FIndex:0
+
+*Group 85
+Index93 F0 Severity:10 FIndex:0
+
+*Group 86
+Index94 F0 Severity:10 FIndex:0
+
+*Group 87
+Index96 F0 Severity:10 FIndex:0
+
+*Group 88
+Index97 F0 Severity:10 FIndex:0
+
+*Group 89
+Index101 F0 Severity:10 FIndex:0
+
+*Group 90
+Index102 F0 Severity:10 FIndex:0
+
+*Group 91
+Index104 F0 Severity:10 FIndex:0
+
+*Group 92
+Index105 F0 Severity:10 FIndex:0
+
+*Group 93
+Index107 F0 Severity:10 FIndex:0
+
+*Group 94
+Index109 F0 Severity:10 FIndex:0
+
+*Group 95
+Index110 F0 Severity:10 FIndex:0
+
+*Group 96
+Index114 F0 Severity:10 FIndex:0
+
+*Group 97
+Index115 F0 Severity:10 FIndex:0
+
+*Group 98
+Index116 F0 Severity:10 FIndex:0
+
+*Group 99
+Index117 F0 Severity:10 FIndex:0
+
+*Group 100
+Index118 F0 Severity:10 FIndex:0
+
+*Group 101
+Index119 F0 Severity:10 FIndex:0
+
+*Group 102
+Index120 F0 Severity:10 FIndex:0
+
+*Group 103
+Index121 F0 Severity:10 FIndex:0
+
+*Group 104
+Index123 F0 Severity:10 FIndex:0
+
+*Group 105
+Index125 F0 Severity:10 FIndex:0
+
+*Group 106
+Index126 F0 Severity:10 FIndex:0
+
+*Group 107
+Index128 F0 Severity:10 FIndex:0
+
+*Group 108
+Index129 F0 Severity:10 FIndex:0
+
+*Group 109
+Index130 F0 Severity:10 FIndex:0
+
+*Group 110
+Index132 F0 Severity:10 FIndex:0
+
+*Group 111
+Index133 F0 Severity:10 FIndex:0
+
+*Group 112
+Index140 F0 Severity:10 FIndex:0
+
+*Group 113
+Index141 F0 Severity:10 FIndex:0
+
+*Group 114
+Index144 F0 Severity:10 FIndex:0
+
+*Group 115
+Index146 F0 Severity:10 FIndex:0
+
+*Group 116
+Index149 F0 Severity:10 FIndex:0
+
+*Group 117
+Index150 F0 Severity:10 FIndex:0
+
+*Group 118
+Index152 F0 Severity:10 FIndex:0
+
+*Group 119
+Index155 F0 Severity:10 FIndex:0
+
+*Group 120
+Index156 F0 Severity:10 FIndex:0
+
+*Group 121
+Index157 F0 Severity:10 FIndex:0
+
+*Group 122
+Index161 F0 Severity:10 FIndex:0
+
+*Group 123
+Index163 F0 Severity:10 FIndex:0
+
+*Group 124
+Index170 F0 Severity:10 FIndex:0
+
+*Group 125
+Index172 F0 Severity:10 FIndex:0
+
+*Group 126
+Index174 F0 Severity:10 FIndex:0
+
+*Group 127
+Index176 F0 Severity:10 FIndex:0
+
+*Group 128
+Index177 F0 Severity:10 FIndex:0
+
+*Group 129
+Index178 F0 Severity:10 FIndex:0
+
+*Group 130
+Index181 F0 Severity:10 FIndex:0
+
+*Group 131
+Index183 F0 Severity:10 FIndex:0
+
+*Group 132
+Index185 F0 Severity:10 FIndex:0
+
+*Group 133
+Index186 F0 Severity:10 FIndex:0
+
+*Group 134
+Index187 F0 Severity:10 FIndex:0
+
+*Group 135
+Index191 F0 Severity:10 FIndex:0
+
+*Group 136
+Index194 F0 Severity:10 FIndex:0
+
+*Group 137
+Index195 F0 Severity:10 FIndex:0
+
+*Group 138
+Index196 F0 Severity:10 FIndex:0
+
+*Group 139
+Index198 F0 Severity:10 FIndex:0
+
+*Group 140
+Index199 F0 Severity:10 FIndex:0
+
+*Group 141
+Index200 F0 Severity:10 FIndex:0
+
+*Group 142
+Index201 F0 Severity:10 FIndex:0
+
+*Group 143
+Index202 F0 Severity:10 FIndex:0
+
+*Group 144
+Index203 F0 Severity:10 FIndex:0
+
+*Group 145
+Index206 F0 Severity:10 FIndex:0
+
+*Group 146
+Index207 F0 Severity:10 FIndex:0
+
+*Group 147
+Index209 F0 Severity:10 FIndex:0
+
+*Group 148
+Index210 F0 Severity:10 FIndex:0
+
+*Group 149
+Index211 F0 Severity:10 FIndex:0
+
+*Group 150
+Index213 F0 Severity:10 FIndex:0
+
+*Group 151
+Index214 F0 Severity:10 FIndex:0
+
+*Group 152
+Index215 F0 Severity:10 FIndex:0
+
+*Group 153
+Index220 F0 Severity:10 FIndex:0
+
+*Group 154
+Index221 F0 Severity:10 FIndex:0
+
+*Group 155
+Index222 F0 Severity:10 FIndex:0
+
+*Group 156
+Index229 F0 Severity:10 FIndex:0
+
+*Group 157
+Index230 F0 Severity:10 FIndex:0
+
+*Group 158
+Index231 F0 Severity:10 FIndex:0
+
+*Group 159
+Index233 F0 Severity:10 FIndex:0
+
+*Group 160
+Index234 F0 Severity:10 FIndex:0
+
+*Group 161
+Index237 F0 Severity:10 FIndex:0
+
+*Group 162
+Index238 F0 Severity:10 FIndex:0
+
+*Group 163
+Index241 F0 Severity:10 FIndex:0
+
+*Group 164
+Index242 F0 Severity:10 FIndex:0
+
+*Group 165
+Index244 F0 Severity:10 FIndex:0
+
+*Group 166
+Index245 F0 Severity:10 FIndex:0
+
+*Group 167
+Index247 F0 Severity:10 FIndex:0
+
+*Group 168
+Index249 F0 Severity:10 FIndex:0
+
+*Group 169
+Index251 F0 Severity:10 FIndex:0
+
+*Group 170
+Index252 F0 Severity:10 FIndex:0
+
+*Group 171
+Index254 F0 Severity:10 FIndex:0
+
+*Group 172
+Index255 F0 Severity:10 FIndex:0
+
+*Group 173
+Index256 F0 Severity:10 FIndex:0
+
+*Group 174
+Index257 F0 Severity:10 FIndex:0
+
+*Group 175
+Index262 F0 Severity:10 FIndex:0
+
+*Group 176
+Index263 F0 Severity:10 FIndex:0
+
+*Group 177
+Index264 F0 Severity:10 FIndex:0
+
+*Group 178
+Index265 F0 Severity:10 FIndex:0
+
+*Group 179
+Index267 F0 Severity:10 FIndex:0
+
+*Group 180
+Index268 F0 Severity:10 FIndex:0
+
+*Group 181
+Index269 F0 Severity:10 FIndex:0
+
+*Group 182
+Index272 F0 Severity:10 FIndex:0
+
+*Group 183
+Index274 F0 Severity:10 FIndex:0
+
+*Group 184
+Index276 F0 Severity:10 FIndex:0
+
+*Group 185
+Index279 F0 Severity:10 FIndex:0
+
+*Group 186
+Index280 F0 Severity:10 FIndex:0
+
+*Group 187
+Index283 F0 Severity:10 FIndex:0
+
+*Group 188
+Index284 F0 Severity:10 FIndex:0
+
+*Group 189
+Index285 F0 Severity:10 FIndex:0
+
+*Group 190
+Index287 F0 Severity:10 FIndex:0
+
+*Group 191
+Index288 F0 Severity:10 FIndex:0
+
+*Group 192
+Index289 F0 Severity:10 FIndex:0
+
+*Group 193
+Index291 F0 Severity:10 FIndex:0
+
+*Group 194
+Index298 F0 Severity:10 FIndex:0
+
+*Group 195
+Index299 F0 Severity:10 FIndex:0
+
+*Group 196
+Index3 Fx Severity:0 FIndex:2147483647
+
+*Group 197
+Index9 Fx Severity:0 FIndex:2147483647
+
+*Group 198
+Index19 Fx Severity:0 FIndex:2147483647
+
+*Group 199
+Index24 Fx Severity:0 FIndex:2147483647
+
+*Group 200
+Index43 Fx Severity:0 FIndex:2147483647
+
+*Group 201
+Index48 Fx Severity:0 FIndex:2147483647
+
+*Group 202
+Index50 Fx Severity:0 FIndex:2147483647
+
+*Group 203
+Index58 Fx Severity:0 FIndex:2147483647
+
+*Group 204
+Index64 Fx Severity:0 FIndex:2147483647
+
+*Group 205
+Index65 Fx Severity:0 FIndex:2147483647
+
+*Group 206
+Index71 Fx Severity:0 FIndex:2147483647
+
+*Group 207
+Index73 Fx Severity:0 FIndex:2147483647
+
+*Group 208
+Index78 Fx Severity:0 FIndex:2147483647
+
+*Group 209
+Index80 Fx Severity:0 FIndex:2147483647
+
+*Group 210
+Index83 Fx Severity:0 FIndex:2147483647
+
+*Group 211
+Index84 Fx Severity:0 FIndex:2147483647
+
+*Group 212
+Index86 Fx Severity:0 FIndex:2147483647
+
+*Group 213
+Index98 Fx Severity:0 FIndex:2147483647
+
+*Group 214
+Index100 Fx Severity:0 FIndex:2147483647
+
+*Group 215
+Index103 Fx Severity:0 FIndex:2147483647
+
+*Group 216
+Index106 Fx Severity:0 FIndex:2147483647
+
+*Group 217
+Index111 Fx Severity:0 FIndex:2147483647
+
+*Group 218
+Index113 Fx Severity:0 FIndex:2147483647
+
+*Group 219
+Index124 Fx Severity:0 FIndex:2147483647
+
+*Group 220
+Index131 Fx Severity:0 FIndex:2147483647
+
+*Group 221
+Index134 Fx Severity:0 FIndex:2147483647
+
+*Group 222
+Index147 Fx Severity:0 FIndex:2147483647
+
+*Group 223
+Index151 Fx Severity:0 FIndex:2147483647
+
+*Group 224
+Index162 Fx Severity:0 FIndex:2147483647
+
+*Group 225
+Index166 Fx Severity:0 FIndex:2147483647
+
+*Group 226
+Index167 Fx Severity:0 FIndex:2147483647
+
+*Group 227
+Index168 Fx Severity:0 FIndex:2147483647
+
+*Group 228
+Index179 Fx Severity:0 FIndex:2147483647
+
+*Group 229
+Index182 Fx Severity:0 FIndex:2147483647
+
+*Group 230
+Index189 Fx Severity:0 FIndex:2147483647
+
+*Group 231
+Index190 Fx Severity:0 FIndex:2147483647
+
+*Group 232
+Index197 Fx Severity:0 FIndex:2147483647
+
+*Group 233
+Index216 Fx Severity:0 FIndex:2147483647
+
+*Group 234
+Index217 Fx Severity:0 FIndex:2147483647
+
+*Group 235
+Index226 Fx Severity:0 FIndex:2147483647
+
+*Group 236
+Index240 Fx Severity:0 FIndex:2147483647
+
+*Group 237
+Index250 Fx Severity:0 FIndex:2147483647
+
+*Group 238
+Index253 Fx Severity:0 FIndex:2147483647
+
+*Group 239
+Index259 Fx Severity:0 FIndex:2147483647
+
+*Group 240
+Index260 Fx Severity:0 FIndex:2147483647
+
+*Group 241
+Index270 Fx Severity:0 FIndex:2147483647
+
+*Group 242
+Index271 Fx Severity:0 FIndex:2147483647
+
+*Group 243
+Index273 Fx Severity:0 FIndex:2147483647
+
+*Group 244
+Index275 Fx Severity:0 FIndex:2147483647
+
+*Group 245
+Index290 Fx Severity:0 FIndex:2147483647
+
+*Group 246
+Index293 Fx Severity:0 FIndex:2147483647
+
+*Group 247
+Index294 Fx Severity:0 FIndex:2147483647
+
+*Group 248
+Index295 Fx Severity:0 FIndex:2147483647
+
+*Group 249
+Index296 Fx Severity:0 FIndex:2147483647
+
+*Group 250
+Index300 Fx Severity:0 FIndex:2147483647
+
+
+*RESULT
+40,35,30,30,25,25,25,25,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,15,15,15,15,15,15,15,15,15,15,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+
+END-------------------------------------10
+
+//Test C
+typedef struct arr_int {
+	int* arr;
+	int size;
+} arr_int;
+
+typedef struct matrix_int {
+	arr_int* arr;
+	int size;
+} matrix_int;
+
+void checkResult(int TC, arr_int expected, arr_int result)
+{
+	printf("TC %d ", TC);
+
+	bool pass = false;
+	if (expected.size == result.size)
+	{
+		for (int index = 0; index < expected.size; index++)
+		{
+			if (expected.arr[index] == result.arr[index])
+			{
+				pass = true;
+			}
+			else
+			{
+				pass = false;
+				break;
+			}
+		}
+	}
+
+	if (true == pass)
+	{
+		printf("pass\n");
+	}
+	else
+	{
+		printf("fail\n");
+
+	}
+}
+
+int main()
+{
+	int n;
+	matrix_int a;
+	arr_int b;
+	arr_int expected;
+
+	for (int TC = 1; TC <= 10; TC++)
+	{
+		if (TC == 1)
+		{
+			n = 10;
+			a =
+			{
+				new arr_int[7]
+				{
+					arr_int {new int[2] { 1, 2 }, 2},
+					arr_int {new int[2] { 1, 3 }, 2},
+					arr_int {new int[2] { 2, 4 }, 2},
+					arr_int {new int[2] { 4, 6 }, 2},
+					arr_int {new int[2] { 2, 8 }, 2},
+					arr_int {new int[2] { 6, 9 }, 2},
+					arr_int {new int[2] { 7, 10 }, 2},
+				},
+				7
+			};
+			b =
+			{
+				new int[3] {3,8,5,},
+				3
+			};
+
+			expected =
+			{
+				new int[3] {35,10,0,},
+				3
+			};
+		}
+		else if (TC == 2)
+		{
+			n = 10;
+			a =
+			{
+				new arr_int[5]
+				{
+					arr_int {new int[2] { 10, 7 }, 2},
+					arr_int {new int[2] { 3, 6 }, 2},
+					arr_int {new int[2] { 2, 10 }, 2},
+					arr_int {new int[2] { 5, 6 }, 2},
+					arr_int {new int[2] { 10, 8 }, 2},
+				},
+				5
+			};
+			b =
+			{
+				new int[4] {4,9,2,8,},
+				4
+			};
+
+			expected =
+			{
+				new int[5] {28,10,10,0,0,},
+				5
+			};
+		}
+		else if (TC == 3)
+		{
+			n = 10;
+			a =
+			{
+				new arr_int[5]
+				{
+					arr_int {new int[2] { 9, 4 }, 2},
+					arr_int {new int[2] { 6, 7 }, 2},
+					arr_int {new int[2] { 2, 8 }, 2},
+					arr_int {new int[2] { 3, 10 }, 2},
+					arr_int {new int[2] { 8, 10 }, 2},
+				},
+				5
+			};
+			b =
+			{
+				new int[4] {5,3,7,2,},
+				4
+			};
+
+			expected =
+			{
+				new int[5] {30,15,10,0,0,},
+				5
+			};
+		}
+		else if (TC == 4)
+		{
+			n = 6;
+			a =
+			{
+				new arr_int[4]
+				{
+					arr_int {new int[2] { 1, 5 }, 2},
+					arr_int {new int[2] { 2, 5 }, 2},
+					arr_int {new int[2] { 1, 4 }, 2},
+					arr_int {new int[2] { 4, 6 }, 2},
+				},
+				4
+			};
+			b =
+			{
+				new int[3] {2,6,5,},
+				3
+			};
+
+			expected =
+			{
+				new int[2] {40,0,},
+				2
+			};
+		}
+		else if (TC == 5)
+		{
+			n = 6;
+			a =
+			{
+				new arr_int[5]
+				{
+					arr_int {new int[2] { 1, 6 }, 2},
+					arr_int {new int[2] { 5, 1 }, 2},
+					arr_int {new int[2] { 6, 4 }, 2},
+					arr_int {new int[2] { 4, 3 }, 2},
+					arr_int {new int[2] { 5, 3 }, 2},
+				},
+				5
+			};
+			b =
+			{
+				new int[2] {4,3,},
+				2
+			};
+
+			expected =
+			{
+				new int[2] {33,0,},
+				2
+			};
+		}
+		else if (TC == 6)
+		{
+			n = 20;
+			a =
+			{
+				new arr_int[20]
+				{
+					arr_int {new int[2] { 5, 7 }, 2},
+					arr_int {new int[2] { 10, 11 }, 2},
+					arr_int {new int[2] { 2, 15 }, 2},
+					arr_int {new int[2] { 10, 5 }, 2},
+					arr_int {new int[2] { 10, 6 }, 2},
+					arr_int {new int[2] { 15, 12 }, 2},
+					arr_int {new int[2] { 6, 11 }, 2},
+					arr_int {new int[2] { 13, 16 }, 2},
+					arr_int {new int[2] { 10, 19 }, 2},
+					arr_int {new int[2] { 13, 14 }, 2},
+					arr_int {new int[2] { 3, 16 }, 2},
+					arr_int {new int[2] { 13, 1 }, 2},
+					arr_int {new int[2] { 11, 1 }, 2},
+					arr_int {new int[2] { 9, 3 }, 2},
+					arr_int {new int[2] { 3, 14 }, 2},
+					arr_int {new int[2] { 3, 5 }, 2},
+					arr_int {new int[2] { 1, 8 }, 2},
+					arr_int {new int[2] { 4, 13 }, 2},
+					arr_int {new int[2] { 14, 8 }, 2},
+					arr_int {new int[2] { 14, 8 }, 2},
+				},
+				20
+			};
+			b =
+			{
+				new int[3] {10,20,17,},
+				3
+			};
+
+			expected =
+			{
+				new int[5] {45,10,10,0,0,},
+				5
+			};
+		}
+		else if (TC == 7)
+		{
+			n = 20;
+			a =
+			{
+				new arr_int[10]
+				{
+					arr_int {new int[2] { 12, 11 }, 2},
+					arr_int {new int[2] { 13, 1 }, 2},
+					arr_int {new int[2] { 16, 17 }, 2},
+					arr_int {new int[2] { 5, 12 }, 2},
+					arr_int {new int[2] { 13, 3 }, 2},
+					arr_int {new int[2] { 12, 13 }, 2},
+					arr_int {new int[2] { 15, 2 }, 2},
+					arr_int {new int[2] { 1, 11 }, 2},
+					arr_int {new int[2] { 17, 7 }, 2},
+					arr_int {new int[2] { 1, 15 }, 2},
+				},
+				10
+			};
+			b =
+			{
+				new int[13] {19,16,10,14,2,20,1,13,3,12,18,9,11,},
+				13
+			};
+
+			expected =
+			{
+				new int[11] {70,18,10,10,10,10,10,10,0,0,0,},
+				11
+			};
+		}
+		else if (TC == 8)
+		{
+			n = 20;
+			a =
+			{
+				new arr_int[15]
+				{
+					arr_int {new int[2] { 13, 19 }, 2},
+					arr_int {new int[2] { 14, 13 }, 2},
+					arr_int {new int[2] { 1, 19 }, 2},
+					arr_int {new int[2] { 13, 17 }, 2},
+					arr_int {new int[2] { 1, 16 }, 2},
+					arr_int {new int[2] { 1, 16 }, 2},
+					arr_int {new int[2] { 11, 8 }, 2},
+					arr_int {new int[2] { 18, 6 }, 2},
+					arr_int {new int[2] { 3, 15 }, 2},
+					arr_int {new int[2] { 11, 14 }, 2},
+					arr_int {new int[2] { 12, 7 }, 2},
+					arr_int {new int[2] { 8, 4 }, 2},
+					arr_int {new int[2] { 1, 9 }, 2},
+					arr_int {new int[2] { 10, 14 }, 2},
+					arr_int {new int[2] { 20, 6 }, 2},
+				},
+				15
+			};
+			b =
+			{
+				new int[16] {5,19,7,12,8,11,4,14,1,10,20,17,9,2,16,13,},
+				16
+			};
+
+			expected =
+			{
+				new int[6] {110,20,18,10,10,0,},
+				6
+			};
+		}
+		else if (TC == 9)
+		{
+			n = 30;
+			a =
+			{
+				new arr_int[15]
+				{
+					arr_int {new int[2] { 10, 24 }, 2},
+					arr_int {new int[2] { 15, 13 }, 2},
+					arr_int {new int[2] { 22, 6 }, 2},
+					arr_int {new int[2] { 15, 30 }, 2},
+					arr_int {new int[2] { 4, 11 }, 2},
+					arr_int {new int[2] { 30, 10 }, 2},
+					arr_int {new int[2] { 5, 19 }, 2},
+					arr_int {new int[2] { 10, 15 }, 2},
+					arr_int {new int[2] { 30, 18 }, 2},
+					arr_int {new int[2] { 13, 8 }, 2},
+					arr_int {new int[2] { 3, 17 }, 2},
+					arr_int {new int[2] { 19, 16 }, 2},
+					arr_int {new int[2] { 6, 19 }, 2},
+					arr_int {new int[2] { 10, 25 }, 2},
+					arr_int {new int[2] { 6, 16 }, 2},
+				},
+				15
+			};
+			b =
+			{
+				new int[18] {17,5,28,30,20,27,13,16,1,26,11,14,15,21,25,12,23,2,},
+				18
+			};
+
+			expected =
+			{
+				new int[17] {58,33,15,15,10,10,10,10,10,10,10,10,10,10,0,0,0,},
+				17
+			};
+		}
+		else if (TC == 10)
+		{
+			n = 300;
+			a =
+			{
+				new arr_int[50]
+				{
+					arr_int {new int[2] { 90, 243 }, 2},
+					arr_int {new int[2] { 223, 224 }, 2},
+					arr_int {new int[2] { 286, 171 }, 2},
+					arr_int {new int[2] { 34, 192 }, 2},
+					arr_int {new int[2] { 148, 159 }, 2},
+					arr_int {new int[2] { 135, 246 }, 2},
+					arr_int {new int[2] { 18, 122 }, 2},
+					arr_int {new int[2] { 137, 184 }, 2},
+					arr_int {new int[2] { 164, 212 }, 2},
+					arr_int {new int[2] { 205, 219 }, 2},
+					arr_int {new int[2] { 10, 164 }, 2},
+					arr_int {new int[2] { 108, 38 }, 2},
+					arr_int {new int[2] { 75, 192 }, 2},
+					arr_int {new int[2] { 235, 47 }, 2},
+					arr_int {new int[2] { 228, 108 }, 2},
+					arr_int {new int[2] { 138, 32 }, 2},
+					arr_int {new int[2] { 127, 22 }, 2},
+					arr_int {new int[2] { 68, 66 }, 2},
+					arr_int {new int[2] { 28, 165 }, 2},
+					arr_int {new int[2] { 193, 208 }, 2},
+					arr_int {new int[2] { 13, 31 }, 2},
+					arr_int {new int[2] { 142, 95 }, 2},
+					arr_int {new int[2] { 127, 17 }, 2},
+					arr_int {new int[2] { 154, 99 }, 2},
+					arr_int {new int[2] { 292, 47 }, 2},
+					arr_int {new int[2] { 297, 277 }, 2},
+					arr_int {new int[2] { 180, 158 }, 2},
+					arr_int {new int[2] { 281, 235 }, 2},
+					arr_int {new int[2] { 69, 136 }, 2},
+					arr_int {new int[2] { 258, 70 }, 2},
+					arr_int {new int[2] { 54, 266 }, 2},
+					arr_int {new int[2] { 169, 175 }, 2},
+					arr_int {new int[2] { 145, 143 }, 2},
+					arr_int {new int[2] { 218, 278 }, 2},
+					arr_int {new int[2] { 56, 232 }, 2},
+					arr_int {new int[2] { 153, 139 }, 2},
+					arr_int {new int[2] { 25, 59 }, 2},
+					arr_int {new int[2] { 70, 286 }, 2},
+					arr_int {new int[2] { 23, 79 }, 2},
+					arr_int {new int[2] { 248, 158 }, 2},
+					arr_int {new int[2] { 205, 44 }, 2},
+					arr_int {new int[2] { 225, 239 }, 2},
+					arr_int {new int[2] { 75, 63 }, 2},
+					arr_int {new int[2] { 282, 160 }, 2},
+					arr_int {new int[2] { 89, 57 }, 2},
+					arr_int {new int[2] { 261, 5 }, 2},
+					arr_int {new int[2] { 112, 204 }, 2},
+					arr_int {new int[2] { 188, 32 }, 2},
+					arr_int {new int[2] { 227, 236 }, 2},
+					arr_int {new int[2] { 74, 173 }, 2},
+				},
+				50
+			};
+			b =
+			{
+				new int[226] {7,212,163,30,264,298,170,132,22,122,269,142,117,49,175,20,14,287,118,18,79,223,183,44,161,109,249,101,160,252,137,256,284,97,8,187,291,15,193,28,238,150,114,6,241,206,62,251,110,244,119,11,205,299,52,90,89,234,263,246,120,108,157,94,155,57,230,148,76,88,66,245,61,153,181,60,104,282,177,297,184,123,51,87,243,176,46,40,191,74,229,59,218,96,265,233,126,68,116,77,180,277,140,129,105,93,141,152,279,195,278,222,221,214,257,276,1,17,125,178,135,274,267,185,272,130,35,186,21,231,200,196,203,213,199,144,13,235,27,169,25,220,4,281,133,201,198,143,292,247,192,82,69,173,280,211,209,285,121,210,154,219,2,289,92,5,115,112,12,102,136,239,128,54,171,224,261,172,85,37,70,81,255,165,146,56,45,262,41,38,33,29,237,164,145,204,72,207,67,32,283,288,16,227,156,248,254,215,91,39,202,55,268,194,242,174,26,53,36,42,75,95,107,34,149,63,},
+				226
+			};
+
+			expected =
+			{
+				new int[250] {40,35,30,30,25,25,25,25,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,15,15,15,15,15,15,15,15,15,15,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,},
+				250
+			};
+		}
+
+		arr_int result = covidSeverity(n, a, b);
+		checkResult(TC, expected, result);
+	}
+}
